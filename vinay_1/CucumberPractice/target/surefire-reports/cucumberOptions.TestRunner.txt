@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.117 sec <<< FAILURE!
+Verify login with valid credentials(Login)  Time elapsed: 0.35 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\VARVENKA\Downloads\chromedriver_win32\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:518)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at stepDefinations.StepDefination.initialize_the_browser_with_chrome(StepDefination.java:28)
+	at ?.Initialize the browser with chrome(file:///C:/Users/vinay%20Gudapati/Desktop/Main%20project/project/CucumberPractice/src/test/java/Features/sign.feature:4)
+
